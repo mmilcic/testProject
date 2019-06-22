@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*--- home page css ---*/
+.banner{
+	background-image:url('../media/hero-section-image.jpg');
+	text-align: center;
+	color: #fff;
+ 
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.banner-text{
+	padding:100px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'Roboto', sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-bottom: 30px;
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-bottom: 50px;
+	color:#fff;
+}
+
+.btn-banner{
+	padding:5px 20px;
+	border-radius:10px;
+	font-weight:700;
+	line-height:1.5;
+	text-align:center;
+	color:#000000;
+	text-transform:uppercase;
+}
+
+/*--- footer ---*/
+.page-footer {
+	background-color: #343a40;
+	color: #fff;
+}
+
+/*--- create your cv page ---*/
+.section-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.steps-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.page-header {
+	text-align: center;
+	border-bottom: solid 1px #DCDCDC;
+	padding: 10px 0px 10px 0px;
+}
+
+.form-padding {
+	padding-top: 10px;
+}
+
+.some-paddings {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*--- pricing page ---*/
+.pricing-header-section {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.pricing-content-section {
+	padding-top: 20px;
+}
+
+.pricing-sub-header-section {
+	font-size: 24px;
+	text-align: center;
+}
+
+.card-header {
+	background-color: #ADFF2F;
+}
+
+/*--- instafeed.css ---*/
+
+#instafeed {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+#instafeed a {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 50%;
+  background: white;
+}
+@media only screen and (min-width: 580px) {
+  #instafeed a {
+    width: 25%;
+  }
+}
+#instafeed a img {
+  display: block;
+  width: 100%;
+}
+
+/*--- carousel with cv design templates ---*/
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.set-background {
+	background-color: #000000;
+	padding: 40px 50px 40px 50px;
+	cursor: pointer;
+}
+
+/*---scroll to top---*/
+.gototop2{
+  width:99%;
+  background:#000;
+  border:2px solid grey;
+}
+
+.goto-top{
+   margin-left:-100%;
+   position:fixed;
+   bottom:20px;
+   right:50px;
+ }
+
+p{
+  color:blue;
+}
+p:hover{
+  cursor:pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .collapse {
+    display: block;
+  }
+}
